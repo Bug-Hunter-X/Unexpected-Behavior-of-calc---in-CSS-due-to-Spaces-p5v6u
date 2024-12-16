@@ -1,0 +1,10 @@
+/* Correct usage of calc() */
+#container {
+  width: calc(100% - 20px);
+  height: calc(100vh - 100px);
+}
+/* Incorrect usage of calc() with unexpected spaces */
+/* #container {
+  width: calc(100% - 20 px); 
+  height: calc(100vh - 100 px);
+} */
